@@ -3,10 +3,39 @@ body {
     margin: 0;
 }
 
-/* ESTILOS DEL NAVBAR */
+/* INICIO ESTILOS DEL NAVBAR */
 
 nav {
     height: 90px;
     
 }
 
+/* FINAL ESTILOS DEL NAVBAR */
+
+/* INICIO ESTILOS DEL PIE DE PAGINA O FOOTER */
+
+.nuestraTrayectoria {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.textNuestratrayectoria {
+    font-size: 25px;
+}
+.iconTrayectoria {
+    font-size: 70px;
+}
+
+/* INICIO ESTILOS DEL PIE DE PAGINA O FOOTER */
+
+
+.titleContact {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    margin: 50px 0 50px 0;
+}
+
+.containerContact {
+    padding-top: 100px;
+}
