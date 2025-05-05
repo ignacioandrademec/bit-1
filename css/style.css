@@ -33,9 +33,62 @@ nav {
     font-size: 30px;
     text-align: center;
     padding: 30px 0 30px 0;
-    margin: 50px 0 50px 0;
+    margin: 50px 0 0 0;
+    background-color: #262626;
+    color: white;
 }
 
 .containerContact {
-    padding-top: 100px;
+    padding: 50px 0 50px 0;
+    background-color: #2E2E2E;
+    color: white;
+    
 }
+
+.parrafoContact {
+    margin-top: 100px;
+}
+
+/* INICIO ESTILOS DEL FORMULARIO */
+
+.boxForm {
+    border: solid 1px;
+    border-radius: 10%;
+    padding: 30px;
+    background-color: #e2e2e2;
+    color: black;
+}
+
+.userIcon {
+    font-size: 70px;
+    color: black;
+}
+
+/* FIN ESTILOS DEL FORMULARIO */
+
+/* INICIO ESTILOS DEL FOOTER */
+
+.containerFooter {
+    padding: 100px 0 100px 0;
+    background-color: #262626;
+    color: white;
+}
+
+
+/* FINAL ESTILOS DEL FOOTER */
+
+.titleFinalAG {
+    font-size: 30px;
+}
+
+.titleFinalContact {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.iconRedes {
+    font-size: 40px;
+}
+
+
+/* FIN ESTILOS DEL PIE DE PAGINA O FOOTER */
