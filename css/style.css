@@ -6,8 +6,18 @@ body {
 /* INICIO ESTILOS DEL NAVBAR */
 
 nav {
-    height: 90px;
-    
+    height: 90px;    
+}
+
+.containerNav {
+    font-size: 12px;
+    padding: 20px 0 20px 0;
+    background-color: #262626;
+    color: white;
+}
+
+.textNavcenter {
+    padding-top: 20px;
 }
 
 /* FINAL ESTILOS DEL NAVBAR */
@@ -74,7 +84,6 @@ nav {
     color: white;
 }
 
-
 /* FINAL ESTILOS DEL FOOTER */
 
 .titleFinalAG {
@@ -88,6 +97,10 @@ nav {
 
 .iconRedes {
     font-size: 40px;
+}
+
+.titleFooter {
+    font-size: 15px;
 }
 
 
