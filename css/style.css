@@ -114,3 +114,23 @@ nav {
     color: #ffffff;
     font-size: 50px;
 }
+
+.titleFundador {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.parrafoFundador {
+    padding: 30px 200px 30px 200px;
+    text-align: center;
+    font-style: italic;
+}
+
+.textFundador {
+    font-style: italic;
+}
+
+.imageFundador {
+    border-radius: 50%;
+    width: 200px;
+}
