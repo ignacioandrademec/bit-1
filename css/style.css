@@ -12,7 +12,7 @@ nav {
 .containerNav {
     font-size: 12px;
     padding: 20px 0 20px 0;
-    background-color: #262626;
+    background-color: #181818;
     color: white;
 }
 
@@ -107,3 +107,10 @@ nav {
 
 
 /* FIN ESTILOS DEL PIE DE PAGINA O FOOTER */
+
+/* INICIO PAGINA INDEX */
+
+.textCarrusel {
+    color: #ffffff;
+    font-size: 50px;
+}
