@@ -176,3 +176,11 @@ nav {
     color: #ffffff;
     border-radius: 50px;
 }
+
+/* SECCIÓN DE PRODUCTOS */
+
+.boxProduct {
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+}
