@@ -16,48 +16,43 @@
 
     <header>
         <!-- INICIO NAVBAR -->
-        <nav>
-            
-            <div class="container-fluid text-center containerNav">
-                <div class="row">
-                    <div class="col-xl-2 col-lg-2"></div>
-                    <div class="col-xl-3 col-lg-3">
-                        <h1>AG PolarTech</h1>
-                    </div>
-                    <div class="col-xl-1 col-lg-1 "></div>
-                    <div class="col-xl-1 col-lg-1 textNavcenter">
-                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                    </div>
-                    <div class="col-xl-1 col-lg-1 textNavcenter">
-                        <a class="nav-link" href="#">LA EMPRESA</a>
-                    </div>
-                    <div class="col-xl-1 col-lg-1 textNavcenter">
-                        <a class="nav-link" href="#">SERVICIOS</a>
-                    </div>
-                    <div class="col-xl-1 col-lg-1 textNavcenter">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              PRODUCTOS
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">CHILLER</a></li>
-                              <li><a class="dropdown-item" href="#">EQUIPOS DE PRESICIÓN</a></li>
-                              <li><a class="dropdown-item" href="#">EQUIPOS SPLIT</a></li>
-                              <li><a class="dropdown-item" href="#">EQUIPOS MINI SPLIT</a></li>
-                              <li><a class="dropdown-item" href="#">EQUIPOS DE VENTILACIÓN</a></li>
-                              <li><a class="dropdown-item" href="#">TORRES DE ENFRIAMIENTO</a></li>
-                              <li><a class="dropdown-item" href="#">EQUIPOS TIPO PAQUETE</a></li>
-                              <li><a class="dropdown-item" href="#">EQUIPOS VRF</a></li>
-                            </ul>
-                    </div>
-                    <div class="col-xl-1 col-lg-1 textNavcenter">
-                        <a class="nav-link" href="#">CONTACTO</a>
-                    </div>
-                    <div class="col-xl-1 col-lg-1"></div>
-                </div>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid boxNav">
+              <a class="navbar-brand textNavbar" href="#">AG POLAR TECH</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">LA EMPRESA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">SERVICIOS</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      PRODUCTOS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex formNav" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
             </div>
-
-        </nav>
-
+          </nav>
         <!-- FINAL NAVBAR -->
     </header>
 
@@ -157,40 +152,43 @@
          <!-- FINAL CARRUSEL SERVICIOS -->
 
          <!-- INICIO DE APARTADO PRODUCTOS -->
-        <div class="container text-center">
-            <div class="row containerProduct">
+        <div class="container-fluid sectionProduct text-center">
+
+            <div class="row containerProduct text-center">
+
+                <h2 class="titleProduct">NUESTROS PRODUCTOS</h2>
 
                 <div class="col-xl-3 text-center boxProduct">
                     <h3>CHILLER</h3>
                 </div>
 
-                <div class="col-xl-3 text-center boxProduct">
-                    <h3>CHILLER</h3>
+                <div class="col-xl-3 text-center boxProduct2">
+                    <h3>EQUIPOS DE PRESICIÓN</h3>
                 </div>
 
                 <div class="col-xl-3 text-center boxProduct">
-                    <h3>CHILLER</h3>
+                    <h3>EQUIPOS SPLIT</h3>
                 </div>
 
-                <div class="col-xl-3 text-center boxProduct">
-                    <h3>CHILLER</h3>
+                <div class="col-xl-3 text-center boxProduct2">
+                    <h3>EQUIPOS MINISPLIT</h3>
                 </div>
 
-            </div>
-            <div class="row">
-                <div class="col-xl-3 text-center boxProduct">
-                    <h3>CHILLER</h3>
+                <div class="col-xl-3 text-center boxProduct2">
+                    <h3>EQUIPOS DE VENTILACIÓN</h3>
                 </div>
                 <div class="col-xl-3 text-center boxProduct">
-                    <h3>CHILLER</h3>
+                    <h3>TORRES DE ENFRIAMIENTO</h3>
+                </div>
+                <div class="col-xl-3 text-center boxProduct2">
+                    <h3>EQUIPOS TIPO PAQUETE</h3>
                 </div>
                 <div class="col-xl-3 text-center boxProduct">
-                    <h3>CHILLER</h3>
-                </div>
-                <div class="col-xl-3 text-center boxProduct">
-                    <h3>CHILLER</h3>
+                    <h3>REFRIGERANTE VARIABLE</h3>
                 </div> 
+
             </div>
+
 
         </div>
 
