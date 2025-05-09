@@ -233,3 +233,22 @@ nav {
 .boxMisVisObje {
     background-color: #181818;
 }
+
+.minboxMisVisObj {
+    padding: 30px;
+    width: 300px;
+    height: 500px;
+    background-color: #262626;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.minboxMisVisObj2 {
+    padding: 30px;
+    width: 300px;
+    height: 500px;
+    background-color: #979797;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
