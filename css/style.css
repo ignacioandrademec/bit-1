@@ -273,6 +273,48 @@ nav {
     margin-bottom: 30px;
 }
 
+/* INICIO DE ESTILOS PRODUCTOS INDEX */
+
 .iconosStyle {
     font-size: 100px;
+}
+
+.boxProducts {
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+    padding-top: 50px;
+}
+
+.imgChiller {
+    width: 300px;
+}
+
+.imgVRF {
+    width: 300px;
+}
+
+.imgSplit {
+    width: 300px;
+    height: 300px;
+}
+
+.imgPresicion {
+    width: 300px;
+}
+
+.imgPaquete {
+    width: 300px;
+}
+
+.imgEnfriamiento {
+    width: 300px;
+}
+
+.imgminiSplit {
+    width: 300px;
+}
+
+.imgFan {
+    width: 300px;
 }
