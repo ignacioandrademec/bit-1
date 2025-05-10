@@ -258,7 +258,7 @@ nav {
 .boxService {
     background-color: #7d7d7d;
     width: 500px;
-    height: 800px;
+    height: 650px;
     padding-top: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -267,8 +267,12 @@ nav {
 .boxService2 {
     background-color: #d0d0d0;
     width: 500px;
-    height: 800px;
+    height: 650px;
     padding-top: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.iconosStyle {
+    font-size: 100px;
 }
