@@ -1,6 +1,7 @@
 /* ESTILOS GENERALES */
 body {
     margin: 0;
+    padding: 0;
 }
 
 /* INICIO ESTILOS DEL NAVBAR */
@@ -17,6 +18,47 @@ nav {
 .formNav {
     padding-right: 20%;
 }
+
+.logo {
+    width: 100px;
+    padding: 10px;
+}
+
+.logo2 {
+    width: 200px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 0px 0px 0px 0px !important;
+    text-align: right !important;
+}
+
+.boxNav {
+    padding: 0px !important;
+    background-color: #ffffff;
+    
+}
+
+.fondonavbar {
+    background-color: #ffffff;
+    padding: 0px !important;
+}
+
+#navbarSupportedContent {
+    background-color: rgb(255, 255, 255);
+}
+
+.hometext {
+    margin-left: 170px;
+}
+
+.navbar-toggler {
+    margin-left: 20px;
+
+}
+
+
 
 /* FINAL ESTILOS DEL NAVBAR */
 
