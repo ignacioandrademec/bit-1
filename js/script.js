@@ -13,7 +13,6 @@ $contactForm2.addEventListener("submit", (event) => {
     console.log(email);
     console.log(message);
     
-    
     const result = `Apreciado ${name}.
     
 Gracias por diligenciar la información.
