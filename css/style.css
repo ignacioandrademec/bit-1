@@ -396,3 +396,8 @@ li {
     padding: 50px;
     width: 400px;
 }
+
+.navaside {
+    text-decoration: none;
+    color: white;
+}
