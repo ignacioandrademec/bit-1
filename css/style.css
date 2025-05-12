@@ -217,6 +217,12 @@ nav {
     border-radius: 50px;
 }
 
+.buttontext {
+    text-decoration: none;
+    color: #181818;
+}
+
+
 /* SECCIÓN DE PRODUCTOS */
 
 .sectionProduct {
@@ -248,6 +254,11 @@ nav {
     padding-top: 40px;
     padding-bottom: 25px;
     color: #D9D9D9;
+    padding-right: 200px;
+}
+
+.containerProduct {
+    margin-left: 5%;
 }
 
 
