@@ -84,6 +84,7 @@
 
         <!-- INICIO CONTÁCTENOS -->
 
+
         <div class="container-fluid text-center containerContact">
             <div class="row">
 
@@ -91,7 +92,7 @@
 
                 <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3"></div>
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                    <p class="parrafoContact">
+                    <p class="parrafoContact1">
                         En AG PolarTech, valoramos tu tiempo y tu confianza. Cada solicitud es atendida por un equipo comprometido con brindarte soluciones HVAC de alta calidad, con atención personalizada y respuesta oportuna.<br> <br> Déjanos tus datos y muy pronto nos pondremos en contacto contigo para ayudarte a crear un ambiente más confortable, eficiente y seguro.
                     </p>
                 </div>
@@ -104,20 +105,58 @@
                 <div class="col-xl-4 col-lg-4 col-md-8 col-sm-8">
                     <div class="boxForm">
                         <i class="bi bi-person-fill userIcon"></i>
-                        <form>
+                        <form id="contactForm">
                             <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Nombre y Apellidos</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu Nombre y Apellido">
+                                <label for="nameInput" class="form-label">Nombre y Apellidos</label>
+                                <input type="text" class="form-control" id="nameInput" placeholder="Escribe tu Nombre y Apellido" name="name">
                             </div>
                             <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu Correo Electrónico">
+                                <label for="nameInput" class="form-label">Nombre de la Empresa</label>
+                                <input type="text" class="form-control" id="nameInput" placeholder="Ingrese el nombre de la empresa" name="nameEmpresa">
                             </div>
                             <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Solicitud</label>
-                                <textarea placeholder="Escribe tu Solicitud"  class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <label for="nameInput" class="form-label">Nit de la empresa</label>
+                                <input type="text" class="form-control" id="nameInput" placeholder="Ingrese el NIT de la Empresa" name="nameNit">
                             </div>
-                        </form>
+                            <div class="mb-3">
+                                <label for="emailInput" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="emailInput" placeholder="Escribe tu Correo Electrónico" name="email">
+                            </div>
+                            <select class="form-select" aria-label="Default select example" name="selectorService">
+                                <option selected>Seleccione el tipo de Servicio</option>
+                                <option value="Mantenimiento">Servicio de Mantenimiento</option>
+                                <option value="Diseño">Servicio de Diseño</option>
+                                <option value="Compra de Productos">Compra de Productos</option>
+                                <option value="Instalación de sistema de Ventilación">Instalación de Sistema de Vetilación</option>
+                                <option value="Instalación de Aire Acondicionado">Instalación de Aire Acondicionado</option>
+                                <option value="Reparación">Reparaciónes</option>
+                            </select>
+                            
+                            <div class="form-check formcheck1">
+                                <input class="form-check-input " type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    Sector Industrial
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input " type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    Sector Residencial
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input " type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    Sector Salud
+                                </label>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="textareaInput" class="form-label2">Solicitud</label>
+                                <textarea placeholder="Escribe tu Solicitud"  class="form-control" id="textareaInput" rows="3" name="message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-secondary">Enviar Información</button>
+                        </form> 
                     </div>
                 </div>
 

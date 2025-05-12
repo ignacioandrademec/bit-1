@@ -110,6 +110,21 @@ nav {
     color: black;
 }
 
+.form-label2 {
+    margin-top: 20px;
+}
+
+.form-select {
+    margin-top: 30px;
+}
+
+.formcheck1 {
+    margin-top: 30px;
+}
+
+.parrafoContact1 {
+    margin-top: 300px;
+}
 .userIcon {
     font-size: 70px;
     color: black;
