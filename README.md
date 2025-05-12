@@ -24,18 +24,18 @@ La web tiene como propósito presentar nuestros servicios, productos, trayectori
 
 ## Estructura del Sitio
 
-### 🏠 Página Principal (`index.html`)
+### Página Principal (`index.html`)
 
 - Carrusel de bienvenida con mensajes inspiradores.
 - Presentación del fundador.
 - Acceso directo a servicios y productos destacados.
 
-### 🏢 La Empresa (`/html/00_laEmpresa.html`)
+### La Empresa (`/html/00_laEmpresa.html`)
 
 - Visión, misión y valores de AG PolarTech.
 - Experiencia del equipo y compromiso con el cliente.
 
-### 🛠️ Servicios (`/html/01_servicios.html`)
+### Servicios (`/html/01_servicios.html`)
 
 Ofrecemos:
 
@@ -46,7 +46,7 @@ Ofrecemos:
 - Asesoría técnica
 - Soluciones de ventilación
 
-### 🧊 Productos (`/html/02_productos.html` y subsecciones)
+### Productos (`/html/02_productos.html` y subsecciones)
 
 - Mini Split
 - Refrigerante Variable
@@ -57,20 +57,36 @@ Ofrecemos:
 - Equipos de Precisión
 - Equipos Chiller
 
-### 📈 Nuestra Trayectoria
+### Nuestra Trayectoria
 
 - Más de 15 años de experiencia
 - 578 casos exitosos
 - 244 clientes satisfechos
 - 89 desarrollos completados
 
-### 📞 Contáctenos
+### Contáctenos
 
 Formulario interactivo para solicitar más información o agendar una asesoría.
+
+### Imagenes de FIGMA
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
+![alt text](image-12.png)
 
 ## Autor
 
 **José Ignacio Andrade Gutiérrez**  
 Fundador y desarrollador del sitio web de AG PolarTech.
 
-📅 **Fecha de creación del proyecto**: Mayo 2025
+**Fecha de creación del proyecto**: Mayo 2025
