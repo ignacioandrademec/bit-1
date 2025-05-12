@@ -177,6 +177,10 @@ nav {
     margin-bottom: 60px;
 }
 
+.navproducts {
+    text-decoration: none;
+    color: black;
+}
 
 /* CARRUSEL DE SERVICIOS */
 
