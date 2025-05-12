@@ -181,20 +181,21 @@
                 <div class="col-xl-4 col-lg-4 col-md-8 col-sm-8">
                     <div class="boxForm">
                         <i class="bi bi-person-fill userIcon"></i>
-                        <form>
+                        <form id="contactForm2">
                             <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Nombre y Apellidos</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu Nombre y Apellido">
+                                <label for="nameInput" class="form-label">Nombre y Apellidos</label>
+                                <input type="text" class="form-control" id="nameInput" placeholder="Escribe tu Nombre y Apellido" name="name">
                             </div>
                             <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu Correo Electrónico">
+                                <label for="emailInput" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="emailInput" placeholder="Escribe tu Correo Electrónico" name="email">
                             </div>
                             <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Solicitud</label>
-                                <textarea placeholder="Escribe tu Solicitud"  class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <label for="textareaInput" class="form-label">Solicitud</label>
+                                <textarea placeholder="Escribe tu Solicitud"  class="form-control" id="textareaInput" rows="3" name="message"></textarea>
                             </div>
-                        </form>
+                            <button type="submit" class="btn btn-secondary">Enviar Información</button>
+                        </form> 
                     </div>
                 </div>
 
